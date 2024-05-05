@@ -1,0 +1,56 @@
+.mainContainer{
+    background-color: rgb(124, 120, 120);
+}
+
+.firstRow{
+    padding: 0px 250px ;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.secondRow{
+    margin: 10px 180px 80px 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-design{
+    background-color: rgb(77, 73, 73);
+    margin: 10px;
+    max-width: 220px;
+}
+
+.card-title{
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    float: left;
+}
+
+.explore-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 110px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.filterButton{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.filterButton:hover{
+    background-color: rgb(17, 149, 193);
+}
+
+.nodatafound{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}

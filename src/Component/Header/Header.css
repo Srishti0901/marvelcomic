@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.mainHeading{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-left: 220px;
+}
+
+.modalSearchBar{
+  position: relative;
+  margin-right: 220px;
+}
+
+.searchIcon {
+	visibility: visible;
+	position: absolute;
+	left: 10px;
+	z-index: 1;
+	padding: 8px 0px 0px 5px;
+}
+
+.searchInput {
+  padding: 9.25px 13.25px 9.25px 38px !important;
+  transition: border-color 0s ease-in-out, box-shadow 0s ease-in-out;
+  border-radius: 6px !important;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1.5px solid #D3D4DA !important;
+}
